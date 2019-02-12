@@ -30,3 +30,6 @@ var number1 = parseInt(prompt("Enter a number to subtract:"));
 var number2 = parseInt(prompt("Enter another number:"));
 var result = subtraction(number1, number2);
 alert(result);
+var saySomething = function(whatToSay) {
+alert(whatToSay);
+};
